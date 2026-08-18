@@ -42,7 +42,7 @@ jobs:
     -  name: Build & push Docker image
        uses: mr-smithers-excellent/docker-build-push@v7
        with:
-         image: indiratopkb@gmail.com/springboot-images-new
+         image: kishorbanage/springboot-images-new
          tags: latest
          registry: docker.io
          dockerfile: Dockerfile
